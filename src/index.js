@@ -1,4 +1,5 @@
-import 'react-app-polyfill/stable';
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
@@ -7,7 +8,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import "@babel/polyfill";
-// import 'react-app-polyfill/stable';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
