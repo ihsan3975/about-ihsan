@@ -5,7 +5,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import 'react-app-polyfill/stable';
+import "@babel/polyfill";
+// import 'react-app-polyfill/stable';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
