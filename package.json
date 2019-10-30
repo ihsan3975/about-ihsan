@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.5.2",
+    "@material-ui/icons": "^4.5.1",
     "bootstrap": "^4.3.1",
+    "fullpage-react": "^3.1.0",
     "jquery": "^3.4.1",
     "lodash": "^4.17.15",
     "popper.js": "^1.16.0",
     "react": "^16.11.0",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.11.0",
+    "react-native-expo-viewport-units": "0.0.8",
+    "react-native-viewport-units": "0.0.5",
     "react-page-scroller": "^1.5.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"

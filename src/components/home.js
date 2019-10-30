@@ -4,8 +4,6 @@ import {Pagination} from "react-bootstrap"
 import ReactPageScroller from 'react-page-scroller';
 import FirstComponent from "./FirstComponent";
 import SecondComponent from "./SecondComponent";
-import ThirdComponent from "./ThirdComponent";
-import FourthComponent from "./FourthComponent";
 import FifthComponent from "./FifthComponent";
 
 import "./index.css";
@@ -13,7 +11,7 @@ import "./index.css";
 export default class FullPage extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {currentPage: 3};
+        this.state = {currentPage: 1};
         this._pageScroller = null;
     }
 
@@ -25,34 +23,38 @@ export default class FullPage extends React.Component {
         this.setState({currentPage: number});
     };
 
-    // getPagesNumbers = () => {
+    getPagesNumbers = () => {
+        let items = [];
+        for (let number = 1; number <= 3; number++) {
+        items.push(
+            <Pagination.Item key={number} active={number === this.state.currentPage}>
+                {number}
+            </Pagination.Item>,
+        );
+        }
 
-    //     const pageNumbers = [];
+        const paginationBasic = (
+            <div>
+              <Pagination>{items}</Pagination>
+            </div>
+          );
 
-    //     for (let i = 1; i <= 5; i++) {
-    //         pageNumbers.push(
-    //             <Pagination.Item key={i} eventKey={i - 1} onSelect={this.goToPage}>{i}</Pagination.Item>
-    //         )
-    //     }
-
-    //     return [...pageNumbers];
-    // };
+          return paginationBasic
+    };
 
     render() {
 
-        // const pagesNumbers = this.getPagesNumbers();
+        const pagesNumbers = this.getPagesNumbers();
 
         return <React.Fragment>
             <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
                 <FirstComponent/>
                 <SecondComponent/>
-                <ThirdComponent/>
-                <FourthComponent/>
                 <FifthComponent/>
             </ReactPageScroller>
-            {/* <Pagination className="pagination-additional-class" bsSize="large">
+            <Pagination className="pagination-additional-class" bsSize="large">
                 {pagesNumbers}
-            </Pagination> */}
+            </Pagination>
         </React.Fragment>
     }
 }

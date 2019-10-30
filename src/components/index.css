@@ -30,7 +30,7 @@ html, body {
 }
 
 .component.first-component {
-    background-color: #F3FFBD;
+    background-color: #FDFFFC;
     text-align: center;
     justify-content: center;
 }
@@ -51,7 +51,7 @@ html, body {
 }
 
 .component.second-component {
-    background-color: #F3FFBD;
+    background-color: #FDFFFC;
     flex-direction: row;
     display: flex;
     text-align: center;
@@ -63,8 +63,6 @@ html, body {
 .aboutme {
     justify-content: center;
     text-align: center;
-    margin: 20px;
-    margin-top: -20px;
 }
 
 .profile {
@@ -108,7 +106,7 @@ html, body {
 
 
 .component.third-component {
-    background-color: #F3FFBD;
+    background-color: #FDFFFC;
     flex-direction: column;
     display: flex;
     text-align: center;
@@ -129,7 +127,7 @@ html, body {
 }
 
 .component.fourth-component {
-    background-color: #F3FFBD;
+    background-color: #FDFFFC;
     flex-direction: column;
     display: flex;
     text-align: center;
@@ -141,17 +139,48 @@ html, body {
 }
 
 .component.fifth-component {
-    background-color: #F3FFBD;
+    background-color: #FDFFFC;
     flex-direction: column;
     display: flex;
     text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
+    /* padding-right: 20px; */
+    /* padding-left: 20px; */
+    padding-top: 80px;
+    padding-left: 1.3vw;
 }
 
 h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    /* font-family: 'Fira Sans', sans-serif; */
     margin: auto;
     text-align: center;
+}
+
+h5 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 21px;
+    color: #011627;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #011627;
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #011627;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px;
 }
 
 .pagination-additional-class {
@@ -177,4 +206,24 @@ h2 {
 
 .demo-page-contain__hint {
     margin-bottom: 20px;
+}
+
+.cardPro {
+    background-position: center; 
+    background-size: cover;
+    height: 27vh;
+    width: 48vw;
+    margin: 3px;
+    border-width: 3px;
+    border-color: black;
+}
+
+.cardPro1 {
+    background-position: center; 
+    background-size: cover;
+    height: 20vh;
+    width: 48vw;
+    margin: 3px;
+    border-width: 3px;
+    border-color: black;
 }
