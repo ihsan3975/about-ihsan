@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-13T06:51:06.761Z" agent="5.0 (Windows)" etag="A5VYWd5Wymnt19rh0eQF" version="12.9.11" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-04-13T06:53:19.964Z" agent="5.0 (Windows)" etag="uscRVsk7Fidc-LgasyVi" version="12.9.11" type="github" pages="6">
   <diagram id="rpSaoDBzVoQ7r3c92WG1" name="HomePageAll">
     <mxGraphModel dx="1422" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -59,10 +59,10 @@
           <mxGeometry x="660" y="430" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B-DX-NOlFkAWMgIwntb9-1" value="Galang Dana" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="140" y="400" width="120" height="30" as="geometry" />
+          <mxGeometry x="140" y="410" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B-DX-NOlFkAWMgIwntb9-2" value="Tolong Pertolongan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="400" width="120" height="30" as="geometry" />
+          <mxGeometry x="260" y="410" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ei-ZYADFl7tvC1i5xBl4-1" value="#BersatuLawanCorona" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="260" width="145" height="20" as="geometry" />
